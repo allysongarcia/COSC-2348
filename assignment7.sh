@@ -20,7 +20,6 @@ echo "This is assignment 7"
 Problem 2: This script creates a variable for my name and each of the classes I am taking.
 Then, all of these variables are printed.
 com
-
 #!/bin/bash
 NAME="Allyson"                                                                                           
 class_1="Intro to Scripting"
@@ -32,6 +31,7 @@ echo "My name is $NAME."
 echo "I am taking $class_1, $class_2, $class_3, $class_4, and $class_5."
 echo " "
 
+
 <<com
 Problem 3: This program uses special variables to print my name and the courses I am taking.
 com
@@ -40,6 +40,7 @@ echo "My name is $1"
 echo "I am taking $2, $3, $4, $5, and $6"
 echo " "
 
+
 <<com
 Problem 4: This shell script prints the process number and all arguments passed.
 com
@@ -47,12 +48,14 @@ com
 #Print the process number
 echo "Current process number is: $$"
 #Print all arguments passed
-echo $*
+echo $@
 echo " "  
+
 
 <<com
 Problem 5:
 com
+#!/bin/bash
 
 
 <<com
