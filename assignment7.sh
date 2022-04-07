@@ -56,11 +56,42 @@ echo " "
 Problem 5:
 com
 #!/bin/bash
+RANDOM=$$
+num=$((1+$RANDOM%100))
+echo "Number grade is: $num"
+if [ "$num" -ge 90 ]
+then
+echo "Letter grade is: A"
+elif [ "$num" -ge 80 ]
+then
+echo "Letter grade is: B"
+elif [ "$num" -ge 70 ]
+then 
+echo "Letter grade is: C"
+elif [ "$num" -ge 60 ]
+then
+echo "Letter grade is: D" 
+else 
+echo "Letter grade is: F"
+fi
+echo " "
 
 
 <<com
 Problem 6:
 com
+#!/bin/bash
+var_1=28
+var_2=209                                                                                                                                                                                                          
+var_3=7                                                                                                                                                                                  
+var_4=23                                                                                                                                                                                                           
+echo "Addition of $var_1 + $var_2: $((var_1+var_2))"                                                                                                                                                               
+echo "Subtraction of $var_1 - $var_4: $((var_1-var_4))"                                                                                                                                                            
+echo "Multiplication of $var_1 * $var_3: $((var_1*var_3))"                                                                                                                                                         
+echo "Division of $var_1 / $var_3: $((var_1/var_3))"                                                                                                                                                               
+echo "Incrementing $var_2: $((++var_2))"    
+echo "Decrementing $var_3: $((--var_3))"
+echo " "
 
 
 <<com
