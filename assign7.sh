@@ -2,6 +2,7 @@
 <<com
 Assignment 7 (Problems 2-7)
 Author: Allyson Garcia
+Date: 04/06/2022
 com
 
 #Problem 2: This script creates a variable for my name and each of the classes I am taking. Then, all of these variables are printed.
